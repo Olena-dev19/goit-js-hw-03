@@ -1,11 +1,10 @@
 'use strict'
+function slugify(title) {
 
-
-
-
-
-
-
+    const titleOf = title.toLowerCase().split(' ').join('-');
+   
+    return titleOf;
+}
 
 
 

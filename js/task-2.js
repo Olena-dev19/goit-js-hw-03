@@ -1,5 +1,12 @@
 'use strict'
+function makeArray(firstArray, secondArray, maxLength) {
+    let array = firstArray.concat(secondArray);
+    if (array.length > maxLength) {
+        return array.slice(0, maxLength);
+    }
 
+    return array;
+}
 
 
 
